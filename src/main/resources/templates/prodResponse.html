@@ -1,0 +1,15 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Create Product</title>
+</head>
+<body>
+<h2>Product Details</h2>
+<form action="/createNewProduct" method="POST">
+ID:<b th:text="${ID}"></b>
+Name:<b th:text="${PROD_NAME}"></b>
+Coupon:<b th:text="${COUPON}"></b>
+Discount:<b th:text="${DISCOUNT}"></b>
+</form>
+</body>
+</html>
